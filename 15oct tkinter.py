@@ -1,0 +1,1 @@
+from tkinter import *l=['n','contact','dist','address']r=Tk(className="Layout")i=0for x in l:    Label(text=x,width=10).grid(row=i,column=0)    Entry(width=20).grid(row=i,column=1)    i=i+1def rk():    print(l)Button(text="submit",width=17,command=rk).grid(row=i,column=1)mainloop()
